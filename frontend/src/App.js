@@ -10,7 +10,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/admin/*" element={<AdminHomeScreen />} />
-            <Route path="/" element={<HomeScreen />} />
+            <Route index element={<HomeScreen />} />
           </Routes>
         </main>
       </div >

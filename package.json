@@ -1,7 +1,6 @@
 {
   "name": "receitasapp",
   "proxy": "http://127.0.0.1:5000",
-  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,7 +18,9 @@
   },
   "homepage": "https://github.com/yrui00/ReceitasApp#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
     "eslint": "^8.7.0",

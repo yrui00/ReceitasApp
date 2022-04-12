@@ -18,8 +18,8 @@ export default function AdminHomeScreen() {
                 <Routes>
                     <Route path="/medidas/*" element={<AdminMedidasScreen />} />
                     <Route index element={
-                        <div>
-                            ADMIN
+                        <div className='listar'>
+                            <h1>ADMIN</h1>
                         </div>
                     } />
                 </Routes>
